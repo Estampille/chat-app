@@ -6,16 +6,14 @@ function Contact(){
         <div className="Contact">
             
             <img className="avatar" src="https://randomuser.me/api/portraits/men/60.jpg"/>
-            
             <div>
-            <h4 className='name'>Andy Campbell</h4>
-            
-            
-            <div className="status">
-                 <status className="status-online"></status>
-                 <p className="status-text">online</p>
-            </div>
-            </div>
+                <h4 className='name'>Andy Campbell</h4>
+                <div className="status">
+                     <status className="status-online"></status>
+                  
+                     <p className="status-text">online</p>
+                </div>
+                </div>
             
         </div>
     )
